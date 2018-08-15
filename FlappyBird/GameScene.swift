@@ -47,7 +47,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         for i in 0..<2{
             let background = SKSpriteNode(imageNamed: "Background")
             background.position = CGPoint(x:CGFloat(i) * self.frame.width, y:0)
-            background.name = "background"
+            background.name = "background1"
             background.size = self.frame.size;
             self.addChild(background)
             
@@ -238,7 +238,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         scoreNode.physicsBody?.contactTestBitMask = PhysicsCatagory.Ghost
         
         wallPair.addChild(scoreNode)
-        
         wallPair.run(moveAndRemove)
         self.addChild(wallPair)
     }
@@ -258,7 +257,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         // Called before each frame is rendered
         if gameStarts == true{
             if collision == false{
-                enumerateChildNodes(withName: "background", using: ({
+                enumerateChildNodes(withName: "background1", using: ({
                     (node, error) in
                     var bg = node as! SKSpriteNode
                     bg.position = CGPoint(x: bg.position.x - 20, y: bg.position.y)
