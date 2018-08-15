@@ -17,6 +17,8 @@
 		7FBD3398211F78CF00295C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBD3396211F78CF00295C4F /* LaunchScreen.storyboard */; };
 		7FBD33A3211F78CF00295C4F /* FlappyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBD33A2211F78CF00295C4F /* FlappyBirdTests.swift */; };
 		7FBD33AE211F78CF00295C4F /* FlappyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBD33AD211F78CF00295C4F /* FlappyBirdUITests.swift */; };
+		7FBD33BC2123738200295C4F /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBD33BB2123738200295C4F /* RandomFunction.swift */; };
+		7FBD33BE2124967000295C4F /* FlappyBirdy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FBD33BD2124966F00295C4F /* FlappyBirdy.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		7FBD33A9211F78CF00295C4F /* FlappyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBD33AD211F78CF00295C4F /* FlappyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdUITests.swift; sourceTree = "<group>"; };
 		7FBD33AF211F78CF00295C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FBD33BB2123738200295C4F /* RandomFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		7FBD33BD2124966F00295C4F /* FlappyBirdy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlappyBirdy.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +107,12 @@
 		7FBD3386211F78CB00295C4F /* FlappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				7FBD33BD2124966F00295C4F /* FlappyBirdy.ttf */,
 				7FBD3387211F78CB00295C4F /* AppDelegate.swift */,
 				7FBD3389211F78CB00295C4F /* GameScene.sks */,
 				7FBD338B211F78CB00295C4F /* Actions.sks */,
 				7FBD338D211F78CB00295C4F /* GameScene.swift */,
+				7FBD33BB2123738200295C4F /* RandomFunction.swift */,
 				7FBD338F211F78CB00295C4F /* GameViewController.swift */,
 				7FBD3391211F78CB00295C4F /* Main.storyboard */,
 				7FBD3394211F78CF00295C4F /* Assets.xcassets */,
@@ -239,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FBD3393211F78CB00295C4F /* Main.storyboard in Resources */,
+				7FBD33BE2124967000295C4F /* FlappyBirdy.ttf in Resources */,
 				7FBD338A211F78CB00295C4F /* GameScene.sks in Resources */,
 				7FBD3395211F78CF00295C4F /* Assets.xcassets in Resources */,
 				7FBD3398211F78CF00295C4F /* LaunchScreen.storyboard in Resources */,
@@ -269,6 +276,7 @@
 			files = (
 				7FBD338E211F78CB00295C4F /* GameScene.swift in Sources */,
 				7FBD3390211F78CB00295C4F /* GameViewController.swift in Sources */,
+				7FBD33BC2123738200295C4F /* RandomFunction.swift in Sources */,
 				7FBD3388211F78CB00295C4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
